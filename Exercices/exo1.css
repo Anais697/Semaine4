@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    body:0;
+
+}
+h2{
+    margin: 20px;
+    font-size: x-large;
+}
+article{
+    border: solid palevioletred;
+    text-align: center;
+    margin-left: 40px;
+}
+article p:last-child{
+    text-align: right;
+    padding-right: 10px;
+}

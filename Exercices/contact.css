@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #01586B;
+}
+header{
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    padding: 40px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+form{
+    text-align: center;
+}
+.container{
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center;
+    flex-direction: column;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: white;
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: smaller;
+    font-weight: normal;
+
+}
+.nom, .email, .age, .quelles, .combien, .pourquoi, .commentaire{
+    margin-bottom: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+.envoi{
+    width: 100px;
+    height: 40px;
+    font-size: 1em;
+    background-color: #2F9BB5;
+    color: white;
+}

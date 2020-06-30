@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <title>Formulaire de contact</title>
+</head>
+<body>
+    <header> Formulaire de prise de contact </header>
+<div class="container">
+    <h1> Veuillez remplir tous les champs </h1>
+<form>
+   <div class="nom">
+    <label for="nom">*Nom</label>
+        <input type="text" name="nom" placeholder="Votre nom"><br>
+    </div>
+    <div class="email">
+    <label for="email">*Email</label>
+        <input type="text" name="email" placeholder="Votre Email"><br>
+    </div>
+    <div class="age">
+    <label for="age">*Age</label>
+        <input type="text" name="age" placeholder="Age"><br>
+    </div>
+
+    <div class="quelles">
+        <label for="applications">Quelles applications sur les réseaux sociaux utilisez-vous?</label>
+        <select name="applications"class="inline">
+        <option value="applications">Facebook</option>
+        <option value="applications">Twitter</option>
+        <option value="applications">Instagram</option>
+        </select>
+    </div>
+
+    <div class="combien">
+        <p>Combien de temps y passez vous?</p> 
+        <input type="radio" id="01heure" name="heures" value="0-1 heure">
+        <label for="01heure">0-1 heure</label><br>
+        <input type="radio" id="12heures" name="heures" value="1-2 heures">
+        <label for="12heures">1-2 heures</label><br>
+        <input type="radio" id="23heures" name="heures" value="2-3 heures">
+        <label for="23heures">2-3 heures</label><br>
+        <input type="radio" id="34heures" name="heures" value="3-4 heures">
+        <label for="34heures">3-4 heures</label><br>
+        <input type="radio" id="4heuresplus" name="heures" value="4 heures +">
+        <label for="4heuresplus">4 heures +</label><br>
+    </div>
+    <div class="pourquoi">
+        <p>Pourquoi utilisez-vous cette application?</p>
+        <input type="checkbox" id="pourquoi1" value="Actualités">
+        <label for="pourquoi1">Actualités</label><br>
+        <input type="checkbox" id="pourquoi2" value="Professionnel">
+        <label for="pourquoi2">Professionnel</label><br>
+        <input type="checkbox" id="pourquoi3" value="Voyages">
+        <label for="pourquoi3">Voyages</label><br>
+        <input type="checkbox" id="pourquoi4" value="Passe temps">
+        <label for="pourquoi4">Passe temps</label><br>
+        <input type="checkbox" id="pourquoi5" value="Inspirations">
+        <label for="pourquoi5">Inspirations</label><br>
+        <input type="checkbox" id="pourquoi6" value="Photos">
+        <label for="pourquoi6">Photos</label><br>
+        <input type="checkbox" id="pourquoi7" value="Vidéos">
+        <label for="pourquoi7">Vidéos</label><br>
+    </div>
+    <div class="commentaire">
+        <label for="commentaires">Des commentaires ou des suggestions?</label>
+        <textarea rows="4" cols="30" placeholder="Mettez vos commentaires"></textarea>
+    </div>
+
+    <input type="submit" class="envoi" value="Envoyer">
+</form>
+           
+</div>
+
+</body>
+
+</html>
